@@ -28,10 +28,6 @@ public class CounterController {
     this.logger = LoggerFactory.getLogger(CounterController.class);
   }
 
-  @RequestMapping("/hello")
-    public String hello() {
-        return "hello";
-    }
 
   /**
    * 获取当前计数
